@@ -1,0 +1,40 @@
+body {
+        background-image: url(http://hdwallpaperbackgrounds.net/wp-content/uploads/2015/07/HD-Wallpaper-1080p-Honey-Bee-9.jpg);
+        background-repeat: no-repeat;
+        background-size: width 100%;
+        margin: 0%;
+        font-family:  'Cabin Sketch', cursive;
+
+
+}
+li {
+    float: left;
+  
+}
+
+a {
+    display: block;
+    padding: 8px 90px;
+    background-color: gold;
+    text-decoration: none;
+    text-align: center;
+    border: 10px;
+    border-radius: 30%;
+    border-color: black;
+    color:black;
+    
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
