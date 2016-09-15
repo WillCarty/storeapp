@@ -1,40 +1,70 @@
 body {
-        background-image: url(http://hdwallpaperbackgrounds.net/wp-content/uploads/2015/07/HD-Wallpaper-1080p-Honey-Bee-9.jpg);
+        background-image: url(http://hdwallpaperbackgrounds.net/wp-content/uploads/2015/07/HD-Wallpaper-1080p-Honey-Bee-9.jpg) ;
         background-repeat: no-repeat;
         background-size: width 100%;
         margin: 0%;
         font-family:  'Cabin Sketch', cursive;
+        
 
 
 }
-li {
-    float: left;
-  
-}
+        
+        ul.topnav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
 
-a {
-    display: block;
-    padding: 8px 90px;
-    background-color: gold;
-    text-decoration: none;
-    text-align: center;
-    border: 10px;
-    border-radius: 30%;
-    border-color: black;
-    color:black;
+        
+        ul.topnav li {float: left;}
+
+       
+        ul.topnav li a {
+            display: inline-block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            transition: 0.3s;
+            font-size: 17px;
+        }
+
+
+        ul.topnav li a:hover {background-color: #555;}
+
+       
+        ul.topnav li.icon {display: none;}
+
+        @media screen and (max-width:680px) {
+        ul.topnav li:not(:first-child) {display: none;}
+        ul.topnav li.icon {
+            float: right;
+            display: inline-block;}
+            @media screen and (max-width:680px) {
+        ul.topnav.responsive {position: relative;}
+        ul.topnav.responsive li.icon {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+        ul.topnav.responsive li {
+            float: none;
+            display: inline;
+        }
+        ul.topnav.responsive li a {
+            display: block;
+            text-align: left;
+        }
     
+   .transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.3;
+   }
+    #jumbotron{
+   background: rgb(200, 54, 54);
+   background: rgba(200, 54, 54, 0.5); }
 
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
-
-/* li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
